@@ -1,2 +1,2 @@
 # mapstudy_walkthrough
-Descriptions of the Mapstudy framework
+Example application displaying the functionality of the Mapstudy framework https://github.com/uwcartlab/mapstudy
