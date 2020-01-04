@@ -1,0 +1,63 @@
+{
+	"pages": [
+		{
+			"page": 1,
+			"fullpage": true,
+			"sets": [
+				{
+					"blocks": [
+						{
+							"title": "Page 1",
+							"ask": "This is what a page without a map looks like. It consists of a single set with two blocks. This text is the \"ask\" for a block without an input. You can use this formatting to create an information page or consent form."
+						},
+						{
+							"ask": "This is the second block in the single set on this page. Notice that you can create a new block for each new paragraph of text. In addition to text, this block contains a text input. You could use this kind of formatting to request information or consent from a participant.",
+							"description": "Unlike the first block, this block has no title, but does have a description. This is the description; it is shown in italics. In addition to the two blocks, this set has a single \"next\" button.",
+							"input": {
+								"required": false,
+								"type": "text"
+							}
+						}
+					],
+					"buttons": [
+						"next"
+					]
+				}
+			]
+		},
+		{
+			"page": 2,
+			"fullpage": false,
+			"sets": [
+				{
+					"blocks": [
+						{
+							"title": "Map Types",
+							"ask": "Mapstudy includes support for data layer techniques: <ul><li>choropleth</li><li>proportional symbol</li><li>dot density</li><li>heat</li><li>isoline(for continuous data, not included here)</li></ul> Use the Reexpress interaction operator to toggle between map types."
+						}
+					],
+					"buttons": [
+						"next"
+					]
+				}
+			]
+		},
+		{
+			"page": 3,
+			"fullpage": false,
+			"sets": [
+				{
+					"blocks": [
+						{
+							"title": "Base Layers",
+							"ask": "You can include base layers from various sources, including tile services from Stamen and ESRI."
+						}
+					],
+					"buttons": [
+						"next"
+					]
+				}
+			]
+		}
+	]
+}

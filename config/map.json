@@ -1,0 +1,210 @@
+{
+	"pages": [
+		{
+			"page": 1
+		},
+		{
+			"page": 2,
+			"library": "Leaflet",
+			"mapOptions": {
+				"legend": false,
+				"resetButton": false,
+				"center": [
+					0,
+					0
+				],
+				"zoom": 1,
+				"minZoom": 0,
+				"maxZoom": 22,
+				"maxBounds": [
+					[
+						-90,
+						-180
+					],
+					[
+						90,
+						180
+					]
+				]
+			},
+			"baseLayers": [
+				{
+					"name": "Stamen Toner Lite",
+					"source": "Stamen.TonerLite",
+					"layerOptions": {
+						"attribution": "Map by <a href='http://stamen.com'>Stamen</a>, data by <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap contributors</a>"
+					}
+				}
+			],
+			"dataLayers": [
+				{
+					"name": "Choropleth Layer",
+					"source": "data/population.geojson",
+					"layerOptions": {
+						"fillOpacity": 0.8,
+						"color": "black",
+						"weight": 0.5,
+						"opacity": 1
+					},
+					"expressedAttribute": "POP_EST",
+					"displayAttributes": [
+						"POP_EST"
+					],
+					"renderOnLoad": true,
+					"techniques": [
+						{
+							"type": "choropleth",
+							"classification": "natural breaks",
+							"classes": "Greens.5"
+						}
+					]
+				},
+				{
+					"name": "Proportional Symbol Layer",
+					"source": "data/population.geojson",
+					"layerOptions": {
+						"fillOpacity": 0.8,
+						"color": "black",
+						"weight": 0.5,
+						"opacity": 1
+					},
+					"expressedAttribute": "POP_EST",
+					"displayAttributes": [
+						"POP_EST"
+					],
+					"renderOnLoad": false,
+					"techniques": [
+						{
+							"type": "proportional symbol",
+							"classification": "unclassed",
+							"classes": [
+								1,
+								20
+							],
+							"symbol": "circle"
+						}
+					]
+				},
+				{
+					"name": "Dot Density Layer",
+					"source": "data/population.geojson",
+					"layerOptions": {
+						"fillOpacity": 0.8,
+						"color": "black",
+						"weight": 0.5,
+						"opacity": 1
+					},
+					"expressedAttribute": "POP_EST",
+					"displayAttributes": [
+						"POP_EST"
+					],
+					"renderOnLoad": false,
+					"techniques": [
+						{
+							"type": "dot",
+							"interval": 5000000,
+							"size": 1
+						}
+					]
+				},
+				{
+					"name": "Heat Layer",
+					"source": "data/population.geojson",
+					"layerOptions": {
+						"fillOpacity": 0.8,
+						"color": "black",
+						"weight": 0.5,
+						"opacity": 1
+					},
+					"expressedAttribute": "POP_EST",
+					"displayAttributes": [
+						"POP_EST"
+					],
+					"renderOnLoad": false,
+					"techniques": [
+						{
+							"type": "heat",
+							"size": 10
+						}
+					]
+				}
+			],
+			"interactions": {
+				"overlay": {
+					"logging": false,
+					"toggle": false,
+					"dataLayers": [
+						"Choropleth Layer",
+						"Proportional Symbol Layer",
+						"Dot Density Layer",
+						"Heat Layer"
+					]
+				}
+			}
+		},
+		{
+			"page": 3,
+			"library": "Leaflet",
+			"mapOptions": {
+				"legend": true,
+				"resetButton": false,
+				"center": [
+					0,
+					0
+				],
+				"zoom": 0,
+				"minZoom": 0,
+				"maxZoom": 22,
+				"maxBounds": [
+					[
+						-90,
+						-180
+					],
+					[
+						90,
+						180
+					]
+				]
+			},
+			"baseLayers": [
+				{
+					"name": "Stamen Toner Lite",
+					"source": "http://{s}.tile.stamen.com/toner-lite/{z}/{x}/{y}.png",
+					"layerOptions": "Map by <a href='http://stamen.com'>Stamen</a>, data by <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap contributors</a>"
+				},
+				{
+					"name": "ESRI Imagery",
+					"source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+					"attribution": "Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community"
+				}
+			],
+			"interactions": {
+				"zoom": {
+					"logging": false,
+					"toggle": false,
+					"interface": {
+						"touch": true,
+						"scrollWheel": true,
+						"doubleClick": true,
+						"box": true,
+						"keyboard": true,
+						"widget": true
+					}
+				},
+				"pan": {
+					"logging": false,
+					"toggle": false,
+					"interface": {
+						"drag": true,
+						"keyboard": true,
+						"widget": false
+					}
+				},
+				"underlay": {
+					"logging": false,
+					"toggle": false
+				}
+			}
+		}
+	]
+}

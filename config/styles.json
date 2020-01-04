@@ -1,0 +1,17 @@
+[
+	{
+		"sectionId": "header",
+		"cssAttributes": {
+			"background-color": "rgb(197,5,12)"
+		},
+		"logo-url": "img/logo.png",
+		"content": "MapStudy"
+	},
+	{
+		"sectionId": "footer",
+		"cssAttributes": {
+			"background-color": "rgb(197,5,12)"
+		},
+		"content": "University of Wisconsin-Madison Cartography Lab"
+	}
+]

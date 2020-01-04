@@ -1,0 +1,1059 @@
+commit da1f7ff493d138b139393d1e62ccebad8b07a219
+Author: Nick Underwood <nunderwood6@gmail.com>
+Date:   Wed Nov 6 15:16:41 2019 -0600
+
+    Upload zip for setup, styles section
+
+commit 9ad2d8dbae3c0c5bc0807063cda06533012e250e
+Author: Nick Underwood <32281234+nunderwood6@users.noreply.github.com>
+Date:   Fri Oct 25 10:22:50 2019 -0500
+
+    Update README.md
+    
+    Note this is latest stable dev. version
+
+commit 1e780c1a8180d112f1c4f8c61a96d63be67ce6c8
+Merge: c54c84a f1240ff
+Author: uwcart <uwcart@users.noreply.github.com>
+Date:   Thu Oct 3 20:53:06 2019 -0500
+
+    Merge pull request #1 from uwcart/master
+    
+    Pull post-2016 commits from uwcart
+
+commit f1240ff25dd02a751949922a90934b2e631702c5
+Merge: 9fcc8fc 01697dd
+Author: uwcart <uwcart@users.noreply.github.com>
+Date:   Thu Oct 3 20:43:31 2019 -0500
+
+    Merge pull request #54 from uwcartlab/nick
+    
+    Adding database troubleshooting section to readme
+
+commit 01697dd6d7487f8cff52cfa853113eabf1e8536b
+Author: Nick Underwood <nunderwood6@gmail.com>
+Date:   Sun Apr 7 17:03:29 2019 -0500
+
+    Update database setup section
+
+commit d1204b0390187e63091aef5dde4ff46ddf651d94
+Author: Nick Underwood <nunderwood6@gmail.com>
+Date:   Sun Apr 7 17:02:45 2019 -0500
+
+    update database info in readme
+
+commit f025d4116431778729e9f59f6fd41bb77224c086
+Author: Nick Underwood <nunderwood6@gmail.com>
+Date:   Sun Apr 7 17:01:03 2019 -0500
+
+    update database
+
+commit db0152b317ce705b8accbc34237c5181aee724ec
+Author: Nick Underwood <nunderwood6@gmail.com>
+Date:   Sun Apr 7 16:58:26 2019 -0500
+
+    Updated readme with database info
+
+commit 9fcc8fc84e31bee08c0242d595d54caaba4f519c
+Merge: a152317 accc424
+Author: uwcart <uwcart@users.noreply.github.com>
+Date:   Fri Jun 16 11:14:55 2017 -0500
+
+    Merge pull request #50 from northlandiguana/master
+    
+    added accordions to legend and hover state to interaction switches
+
+commit accc42450ac6cfde34d3bb94b33e96939df20f1d
+Author: Carl Sack <northlandiguana@gmail.com>
+Date:   Fri Jun 16 11:11:10 2017 -0500
+
+    added accordions to legend and hover state to interaction switches
+
+commit a152317d6976fb5d17134104e492cac6ee2e19c4
+Author: Carl Sack <northlandiguana@gmail.com>
+Date:   Tue Apr 25 19:47:23 2017 -0500
+
+    updated D3 to v4 and fixed Leaflet zoom control CSS
+
+commit dae9a35f68c858d4c7c0a33551ff2fbf713d86a7
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Tue Apr 25 12:58:06 2017 -0500
+
+    enabled iframe library
+
+commit a18876ed59bf490ab65a29296e5b8ed1b17437ad
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Tue Apr 25 12:27:05 2017 -0500
+
+    gitignore compiled readme.html
+
+commit d0b153d202b825573d79a44a8acef6ddb0a627bf
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Tue Apr 25 12:19:49 2017 -0500
+
+    enabled Image map library
+
+commit 28deb90da600a1138ed7c27d61b2a0178a86ebe4
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Tue Apr 25 10:01:19 2017 -0500
+
+    fixed point symbol rendering bug
+
+commit 103ba9d1fc30c8fd8cfe1566f77af114dbcdc627
+Author: Carl Sack <northlandiguana@gmail.com>
+Date:   Mon Mar 27 10:58:00 2017 -0500
+
+    fixed bug preventing recording in big data table
+
+commit 9f33e0604257370e3c46d547dc3b9e489dda690f
+Merge: 7f633e1 8b16d46
+Author: Carl Sack <northlandiguana@gmail.com>
+Date:   Thu Mar 2 15:15:43 2017 -0600
+
+    Merge branch 'master' of https://github.com/uwcart/mapstudy
+
+commit 7f633e1d0b276ee86d1bdca2c89bfbf3698f9cb5
+Author: Carl Sack <northlandiguana@gmail.com>
+Date:   Thu Mar 2 15:14:53 2017 -0600
+
+    fixed user input bug
+
+commit 8b16d462cf73c5161a386e5fabec7e20d2c2f12c
+Author: nicklally <nicklally@gmail.com>
+Date:   Sat Feb 11 11:50:03 2017 -0600
+
+    save filter slider states fix
+
+commit e2b8046aedd5d10caf70f8e04ca9cce244a3dca4
+Author: nicklally <nicklally@gmail.com>
+Date:   Fri Feb 10 19:54:12 2017 -0600
+
+    save filter slider states
+
+commit 7ae46754eb89c172bed603517dda8da867764183
+Author: Carl Sack <northlandiguana@gmail.com>
+Date:   Tue Jan 24 15:17:16 2017 -0600
+
+    fixed renderOnLoad
+
+commit 8dccfc7e9ea554530907fb7f81cc71923f7ba97e
+Author: Carl Sack <northlandiguana@gmail.com>
+Date:   Tue Jan 24 15:12:05 2017 -0600
+
+    fixed search dataLayers
+
+commit 5837854e9f2bcc2ce2677befe13f1675cb0cc527
+Author: Carl Sack <northlandiguana@gmail.com>
+Date:   Tue Jan 24 14:59:36 2017 -0600
+
+    fixed overlay dataLayers issue
+
+commit 231c86ddda9a07714b5f01e5343ec511918c1cd6
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Thu Dec 15 16:28:02 2016 -0600
+
+    added participant text input option for radios and checkboxes
+
+commit 3278108afa5a8c3dce0c831dfd3552cc6c422775
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Thu Dec 15 14:56:04 2016 -0600
+
+    replaced bringing labels to top with function to keep layers displayed in original order
+
+commit 71cc0412fc462715659e379d2dddcc96f55bac10
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Thu Dec 15 14:19:35 2016 -0600
+
+    added points technique module
+
+commit 60278422002af954dd29ca58f59ebbdefbda67cd
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Thu Dec 15 11:05:06 2016 -0600
+
+    fixed timer positioning
+
+commit 025f6b751b578d4090b776f039d0a1e4ddd29689
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Wed Dec 14 12:20:50 2016 -0600
+
+    added image option to question sets
+
+commit 2527343b9c9ae860ec4515c5f388b7cfd6e062c2
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Tue Dec 13 17:09:10 2016 -0600
+
+    added video option to question blocks
+
+commit 1866e5a3e89bc9341364cb4bc60e4789bf855c5d
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Tue Dec 13 15:49:43 2016 -0600
+
+    Added options to avoid displaying technique on legend, digits to round to on legend
+
+commit f27b5dc7d2dfe8516124b1e8f85dadfb7aac95c0
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Tue Dec 13 14:51:11 2016 -0600
+
+    added questions.pages[page].sets[i].resetMap option to reset map on new set
+
+commit cd5011b7bdd509513f84fcb7d98e8e59ec123ec4
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Tue Dec 13 12:13:23 2016 -0600
+
+    allow custom layer options for heatmap
+
+commit c54c84a1045514502cd01f74eb08cafb530a7c72
+Merge: 4b65561 7d86c73
+Author: kristenvincent <kvincent2@wisc.edu>
+Date:   Mon Oct 10 13:37:36 2016 -0500
+
+    Merge remote-tracking branch 'refs/remotes/uwcart/master'
+
+commit 7d86c7391d457101773b17798ee3ad1b4cb02527
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Mon Oct 10 13:31:31 2016 -0500
+
+    minor workspace changes
+
+commit 4b655617c5aa64ac58de1e8c499f2d15eebc96c7
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Sun Sep 25 14:43:51 2016 -0500
+
+    remove accidental popups from label layer
+
+commit 31849265b76aaaa8c43ec372e566a55966420e36
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Fri Sep 23 11:15:59 2016 -0500
+
+    enabled data layer min and max zoom options
+
+commit be3cede940743ce7c2c77aa8be640a6c35234c4d
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Thu Sep 22 16:37:07 2016 -0500
+
+    implemented Leaflet label layer
+
+commit c65b9f21a5fe5af57ec8b335ffa112747c57aa09
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Mon Jul 25 20:45:58 2016 -0500
+
+    added reset button to setup app
+
+commit c45737815154b1daca740f1a65d592b78121ae25
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Mon Jul 25 16:22:48 2016 -0500
+
+    debugged reset map button and other issues
+
+commit 28fdd1fc638aede4c8af99144c1f4c23da8e946d
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Fri Jul 22 14:16:31 2016 -0500
+
+    added reset map button
+
+commit 7210acaaa60696cb5d7f1fb47de50ab9f3626773
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Wed Jul 20 15:33:16 2016 -0500
+
+    added auto-advance option to setup form.
+
+commit 18e8e29d77106d14bc4fc870e2c2651c0abe5437
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Fri Jul 15 15:57:08 2016 -0500
+
+    implemented auto-advance option for radios, matrix, and dropdown inputs
+
+commit 442781172b6bb87d2cb59d828545036088f87084
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Fri Jul 15 13:22:54 2016 -0500
+
+    converted interaction toggle switch to optional and cleaned up readme
+
+commit ddbf0c769843c2394960ee3378019e69cd0c17c5
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Fri Jul 15 11:15:22 2016 -0500
+
+    fixed interaction interface options bug in setup app
+
+commit 042d0dce76e1eea3348b72649b254bebc0b94b3a
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Thu Jul 7 11:54:00 2016 -0500
+
+    updated README again
+
+commit c08fa843386885e8f37d1a87e6e2d08f0d080b9d
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Thu Jul 7 11:52:26 2016 -0500
+
+    updated README
+
+commit e7d493d7a8c7fd9f05779af93811d5b24bea1ffe
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Thu Jul 7 11:44:08 2016 -0500
+
+    implemented timer
+
+commit d991c78563987bd6fff8e9a21f881356f9671ad7
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Wed Jul 6 12:12:13 2016 -0500
+
+    fixed minor typos in README
+
+commit 6c236c9c035fa32a9b38814bdfe433317ff06582
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Thu Jun 30 15:30:51 2016 -0500
+
+    updated architecture graphic and added to Readme
+
+commit 5df028c29924b435157ea0cede42c1e560c5b35f
+Merge: 42093bc 97f82bd
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Thu Jun 30 13:15:42 2016 -0500
+
+    Merged master fixed conflict.
+
+commit 42093bcd4c652a89d16c654bbc23e64161f9a89a
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Wed Jun 29 20:26:12 2016 -0500
+
+    replaced color scale select with custom dropdown UI to show scales
+
+commit 97f82bd0553280f08e17aba1abc7a62d28a90941
+Author: kristenvincent <kvincent2@wisc.edu>
+Date:   Wed Jun 29 12:28:55 2016 -0500
+
+    Reword how options are denoted
+
+commit 7285818285c5ee056a0b3acddd61c86318c95de5
+Author: kristenvincent <kvincent2@wisc.edu>
+Date:   Wed Jun 29 12:10:49 2016 -0500
+
+    Fix linking some more
+
+commit 83a9e72aa89858c226984345e1b62bdab658bad8
+Author: kristenvincent <kvincent2@wisc.edu>
+Date:   Wed Jun 29 12:00:48 2016 -0500
+
+    Fix links and change options styling
+
+commit 44ebeddf3a95563e189efd214c956e5ae761d191
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Wed Jun 29 11:37:13 2016 -0500
+
+    temporary fix for color scale preview issue
+
+commit 7e30ebdf6e117c1d2d4a0edbde50bc9cea2b04f3
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Tue Jun 28 15:41:48 2016 -0500
+
+    added support for 2-class choropleth color schemes and fixed choropleth recolor bug
+
+commit 3aff0327f827ccc4c52a252749bb8667421ee8aa
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Tue Jun 28 14:56:35 2016 -0500
+
+    implemented Leaflet-providers
+
+commit f94fef8e00cfb336a7db0b8f4633613e4a0ed3bf
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Tue Jun 28 14:31:23 2016 -0500
+
+    integrated new API into Readme
+
+commit cd9b96cb466271549b194fdb94af99ac6fe997e9
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Tue Jun 28 14:21:53 2016 -0500
+
+    added new API to doc folder
+
+commit e0ad957e5145e2980f749f98f3c48e420d9f353a
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Tue Jun 28 12:58:49 2016 -0500
+
+    updated API with link to working setup app
+
+commit 487ce3846bd51d554fc46ac29209a5f437e4eb92
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Tue Jun 28 12:34:26 2016 -0500
+
+    Enabled live preview from setup app
+
+commit 5aa80addc92667fe075002f182171b6530b87747
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Tue Jun 28 10:00:05 2016 -0500
+
+    implemented code preview on setup app
+
+commit f1a036a70081758f4d084d4403124fa2b1c28e0d
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Mon Jun 27 16:37:59 2016 -0500
+
+    implemented finished config file download
+
+commit 9154915737b894d655360f43bd4022b34af86753
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Mon Jun 27 13:56:54 2016 -0500
+
+    implemented manual condition weight entry and fixed adding condition bug
+
+commit e9786fd6dacdf66b1053a8f90ee20cd085d7444d
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Mon Jun 27 12:37:29 2016 -0500
+
+    got rid of conditions[i].randomOrder option in conditions.json because it was superfluous
+
+commit 6bddbf4761be9e9a826b571f92c17f95dca90e28
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Mon Jun 27 12:27:28 2016 -0500
+
+    conditions setup page is fully implemented.
+
+commit 169e470717317b24b537ad8ef2a046583af71ab5
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Fri Jun 24 16:28:08 2016 -0500
+
+    added conditions; randomization checkboxes need more styling work
+
+commit 4026ab5c2301afb1a9a22ba3ed248fab394fdb89
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Thu Jun 9 13:51:19 2016 -0500
+
+    pages form complete.
+
+commit d41df5180d8477e133e6819c5e6e11d0ab28ee04
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Wed Jun 8 16:30:24 2016 -0500
+
+    data processing of setup form implemented
+
+commit 0f869aa0d63ec6ef2fd48a36af59754d269dbade
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Wed Jun 1 14:33:28 2016 -0500
+
+    added all map options to setup form
+
+commit 04a434cb0cc17f940e686867b0d48466a3f91084
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Mon May 30 16:25:50 2016 -0500
+
+    building on setup app
+
+commit 402b21632440c136d894b9c72348a082b52b92ca
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Tue May 24 10:11:51 2016 -0500
+
+    Started work on config app
+
+commit 23717a7f179a21b2fb2a55105a678e404a477beb
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Wed May 18 09:17:50 2016 -0500
+
+    release beta 0.1
+
+commit 9aad1a522b017369f2cb23f9085fe115425668a3
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Fri May 13 16:43:25 2016 -0500
+
+    fixed typo in docs
+
+commit ad87208ce53195e43383f52797f1471bea774452
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Fri May 13 16:29:57 2016 -0500
+
+    struggling with the gitignore
+
+commit 47276212d147457c4c4bbcfdd5a98218b2cd3b77
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Fri May 13 16:26:40 2016 -0500
+
+    minor change 2
+
+commit fe06b276507825597962f6d11c2c69e6e7b3f65f
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Fri May 13 16:26:12 2016 -0500
+
+    update gitignore
+
+commit aa8e7543e66dbaa522c1c46f37cff4e764d8a638
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Fri May 13 16:21:59 2016 -0500
+
+    minor change
+
+commit 38d4c7fcf37e8024153958479c639a777c12a648
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Fri May 13 16:20:00 2016 -0500
+
+    param.php added to .gitignore
+
+commit f86be4c9b548c6c45dcb0f42af06d139ccc8b65a
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Fri May 13 16:14:33 2016 -0500
+
+    Enabled e-mailing participant tables.
+
+commit 6b9a2b689266a2c00e78aed429eef47192dbd91f
+Merge: d269334 86c47f9
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Mon May 2 10:47:07 2016 -0500
+
+    Merge branch 'master' into gh-pages
+
+commit 86c47f9ff5d706d812bf407ef66ca4e1ec64080d
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Mon May 2 10:46:47 2016 -0500
+
+    updated map.json
+
+commit d269334e5dbccd0028874638bb730f1f8a577737
+Merge: 646a1ba b374b80
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Mon May 2 10:42:40 2016 -0500
+
+    Merge branch 'master' into gh-pages
+
+commit b374b80274324489bad26407235e90d4272d9ce8
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Mon May 2 10:42:21 2016 -0500
+
+    added loading page
+
+commit 646a1ba98e23fb66a7dac8b77ef9cf0f3ef5e5ac
+Merge: b6d04bb 6b33c68
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Mon May 2 09:53:56 2016 -0500
+
+    Merge branch 'master' into gh-pages
+
+commit 6b33c68ca2a520a7ade4bc9a7b010eeeac1d47ba
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Mon May 2 09:53:29 2016 -0500
+
+    fixed search-popup bug
+
+commit b6d04bbdb4c8128c18af40479bbf9a779c11de2a
+Merge: 84e57fa d390555
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Fri Apr 29 11:52:46 2016 -0500
+
+    Merge branch 'master' into gh-pages
+
+commit d3905556eb01db027c00f51b4db660fec899082e
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Fri Apr 29 11:52:26 2016 -0500
+
+    interaction recording bugs fixed
+
+commit d6be4abfe154777496664dbf80e0b8a63911ed7c
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Fri Apr 29 09:55:00 2016 -0500
+
+    fixed zoom and underlay interaction recording bugs
+
+commit e8ba0a34e361570fae818b141f2a3d1f127f0bd1
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Fri Apr 29 09:20:10 2016 -0500
+
+    all data and interaction tables create and update correctly in pgsql
+
+commit 84e57fac22604c93a468a6620ebfaf8aaa8bb0bb
+Merge: e2fcd05 b980cd2
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Thu Apr 28 15:34:55 2016 -0500
+
+    Merge branch 'master' into gh-pages
+
+commit b980cd29c1a421d67f060af4d0cf36a79b3f55f3
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Thu Apr 28 15:33:51 2016 -0500
+
+    script adds all non-existing data tables on first run
+
+commit e2fcd05b141eebd4d92c8d59d70dc432f0efd08f
+Merge: b048be6 fdf3bd6
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Fri Apr 22 14:30:05 2016 -0500
+
+    Merge branch 'master' into gh-pages
+
+commit fdf3bd60286485d123573a57aebf59d5213764b3
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Fri Apr 22 14:29:00 2016 -0500
+
+    adjusted loading to ensure config files load after condition is set
+
+commit b048be647d6f92dbec31e00b8ae0a709bc5d1446
+Merge: 00df15f e825ce9
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Thu Apr 14 15:40:30 2016 -0500
+
+    Merge branch 'master' into gh-pages
+
+commit e825ce911d8c9f202f2877e0c7149aa67b416f6e
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Thu Apr 14 15:39:16 2016 -0500
+
+    rearranged dummy map and questions config files to be more realistic
+
+commit 00df15fb640b006760a52459a5952d2f1620835a
+Merge: d9e7ea0 e75e5b6
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Thu Apr 14 15:18:56 2016 -0500
+
+    Merge branch 'master' into gh-pages
+
+commit e75e5b6e72ddfd1b4e841fac56653e3a8b96303f
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Thu Apr 14 15:14:57 2016 -0500
+
+    pages progress forward or back in order specified by condition
+
+commit a0b980ff73c613095e5d54a9f397dbe323210887
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Thu Apr 14 14:45:58 2016 -0500
+
+    working on implementing page forward and back
+
+commit d9e7ea0671d05123ab27c8a46e1a2218c8cb8a08
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Wed Apr 13 11:39:31 2016 -0500
+
+    reset map config
+
+commit 7bf84b36e16c9a39376d8c6bfb6252def421d092
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Tue Apr 12 13:01:23 2016 -0500
+
+    question inputs show saved data on re-render
+
+commit 10761fba5671efbdaf91028fecac74ca67136bf1
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Tue Apr 12 11:21:12 2016 -0500
+
+    updated documentation to add conditions.json and param.php
+
+commit ea1c911344cbc9f0a48df38c5e3f7ad86699a46e
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Mon Apr 11 10:05:16 2016 -0500
+
+    buttons partially implemented
+
+commit 9ee48125742b92adadd699356cccb9ab84cdc509
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Fri Apr 8 15:25:55 2016 -0500
+
+    views added for all question types
+
+commit 97c53065495f632a6dd6ac8b6890eead05d7169a
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Fri Apr 8 14:27:37 2016 -0500
+
+    added most question types
+
+commit c99a712149274c508b3f11457c96adaa4a4c48ec
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Thu Apr 7 11:17:48 2016 -0500
+
+    Added questions section to API
+
+commit 259fb18cdf67d36a11469055221af80b276cdab4
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Thu Apr 7 09:41:01 2016 -0500
+
+    restructured pages to require only one of each config file
+
+commit ad905976577fa39a001db56687fd8e5c937f3dbf
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Thu Apr 7 08:43:32 2016 -0500
+
+    added pages
+
+commit ad5615e4d332d9fb7ebc6a127e4a0ad1938e6873
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Mon Mar 7 15:18:40 2016 -0600
+
+    implemented resymbolize for dot maps
+
+commit 810305db6777a3ee35fc6c2c1c52192b0dcf1fe1
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Thu Mar 3 16:27:20 2016 -0600
+
+    dot map implemented.
+
+commit d17c01d3d01e20f7c263ddceafd4dbf4fa6e4a72
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Thu Mar 3 12:17:27 2016 -0600
+
+    legend updates on resymbolize
+
+commit d68923a1677aa4b4a6e21cac2041b9ce2682b17b
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Wed Mar 2 14:50:10 2016 -0600
+
+    resymbolize implemented for isarithmic map
+
+commit 1bb50782067c1e5708bf12cb5cc6426ca573bdc0
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Wed Mar 2 11:30:54 2016 -0600
+
+    implemented resymbolize-rescale for proportional symbols
+
+commit 6f8c4e6e2ba51ee589334fbdf801504360045ef0
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Tue Mar 1 16:17:59 2016 -0600
+
+    implemented filter on heatmap layer
+
+commit 27868257dcfffc0abc35f0a8c08c509190f9a2ee
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Mon Feb 29 13:32:52 2016 -0600
+
+    heatmap layer legend implemented
+
+commit 0464df824a67ef34a58c7413f8b3f189f094d646
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Fri Feb 26 14:07:51 2016 -0600
+
+    Leaflet heat map implemented
+
+commit 2cd7fa2e61a4c7de839c4c21f35984d0ea4060f9
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Thu Feb 25 10:37:39 2016 -0600
+
+    isarithmic to choropleth reexpress implemented, but browser chokes on rendering
+
+commit 64b809215784b6512b339e269aed53c06002e296
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Wed Feb 24 16:38:43 2016 -0600
+
+    added reexpress for isarithmic map
+
+commit e8ed3dd9f8e0d102923102a55c5d52788cea9d5a
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Wed Feb 24 12:25:27 2016 -0600
+
+    implemented isarithmic technique type
+
+commit f7d9e3c335cba1a2d5570d9c3ea12179980d1ee4
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Mon Feb 22 16:16:28 2016 -0600
+
+    fixed minor retrieve bug
+
+commit 9bd5068c86ea93d7f558e1512830b35fe1715145
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Mon Feb 22 16:11:18 2016 -0600
+
+    added panning interface options
+
+commit 90d3e02e9ae69d9a5e24df6530242303753faaef
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Mon Feb 22 15:46:27 2016 -0600
+
+    added zoom interface options
+
+commit 9b1d3e5f1864541ca29014b3fd366f54accbec5c
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Mon Feb 22 15:20:02 2016 -0600
+
+    added retrieve interface options
+
+commit b4712103a36f28e74a13df6be2bc081a8c73a2d6
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Mon Feb 22 11:16:32 2016 -0600
+
+    added recolor for prop symbols
+
+commit d77928eb3dc46b00ce979eeb3c129e5bfa77ebc9
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Fri Feb 19 15:04:15 2016 -0600
+
+    reclassify working for prop symbol; tools correctly toggle on layer change
+
+commit cad69cc3f8386e0c9b16323467829b31e8cdf7aa
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Tue Feb 16 15:43:50 2016 -0600
+
+    fixed color scale bug. Started adding resymbolize to prop symbol
+
+commit e9b5b54fa1e6943f9d12350e324dc0b90f2040cc
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Tue Feb 16 14:05:35 2016 -0600
+
+    resymbolize fully implemented for choropleth
+
+commit 441e3df6fb28e691027c74b70d9d8d60969ac496
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Tue Feb 16 12:48:26 2016 -0600
+
+    ColorBrewer codes fully implemented
+
+commit 750e9208e4c130263c56de436a95beb9599b9279
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Tue Feb 16 12:10:27 2016 -0600
+
+    reclassify working for choropleth
+
+commit 3d766bb26dac5bb556e16409e0888c88788a32c6
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Mon Feb 15 16:14:00 2016 -0600
+
+    reclassification interface active
+
+commit 25b5e790ab46f43f3ffc0594dfbec889868151ed
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Thu Feb 11 17:22:17 2016 -0600
+
+    resymbolize templates created
+
+commit 8fbd154f2a05ef138893ec21e51dcaf07b349b42
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Wed Feb 10 15:21:25 2016 -0600
+
+    fixed legend bug
+
+commit b76188ba335b61adf808e2f02252f6cac66b524e
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Wed Feb 10 14:30:23 2016 -0600
+
+    added details of resymbolize interaction to API
+
+commit 7576f46f41a586806e3bd30ed2fb2de5f5482226
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Wed Feb 10 11:07:43 2016 -0600
+
+    simplified interaction state tracking
+
+commit 317660ef291f040bbc9fff46e1c312a127294d1d
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Wed Feb 10 10:20:46 2016 -0600
+
+    reexpress widget fully active and integrated with overlay
+
+commit dfb09ae7bc17d45f1c3978fd83deed9a33352954
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Tue Feb 9 10:36:17 2016 -0600
+
+    fixed minor filter bug
+
+commit 35e3ed745861556860da9913dbc0f4d55d4c8504
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Mon Feb 8 16:45:23 2016 -0600
+
+    fixed search bug
+
+commit 4988e51b481184b9dd87bc000f0af2aa2c11a204
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Mon Feb 8 15:53:13 2016 -0600
+
+    refactored data loading for improved efficiency
+
+commit f24d9079cb97824757a127461f2aee241e859560
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Fri Jan 29 16:47:36 2016 -0600
+
+    filter widget converted to new approach
+
+commit 7fed6c4b7f826730403923dcf4dece67a9bb5815
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Fri Jan 29 14:42:00 2016 -0600
+
+    search widget implemented
+
+commit 48f9bc98be2ac96dbff9275b911a01564174da6d
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Fri Jan 29 10:31:54 2016 -0600
+
+    new retrieve, pan, zoom, overlay, and underlay tools implemented
+
+commit 80311cb149a6f77c0e9f159e765fd6d623cf0a5b
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Thu Jan 28 09:39:37 2016 -0600
+
+    interaction control icons set
+
+commit 0bf7a4d333f88b32a023b6c58deef8aca4bb98b3
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Wed Jan 27 16:46:16 2016 -0600
+
+    first widget toggle icons visible
+
+commit 0163a8a24f14c9c9265bce5f33b45f33de9963c5
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Wed Jan 27 15:54:23 2016 -0600
+
+    legend collapses; started adding top bar interaction UI buttons
+
+commit 21530ae4733079eaa180d5e20431599599f0b74f
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Wed Jan 27 13:37:14 2016 -0600
+
+    legend working; need to figure out layer error
+
+commit 61f5ca84f1cce8a1a6df3243557d99c84fd85157
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Tue Jan 26 09:53:57 2016 -0600
+
+    fixed Natural Breaks
+
+commit 24aa80d589ceb8563d15a87c96aae90c0557c083
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Thu Jan 21 19:41:42 2016 -0600
+
+    logic filter tool fully converted
+
+commit f875211ff02d3aa25d986f0399c1f2447a3661e9
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Thu Jan 21 14:58:54 2016 -0600
+
+    reworked filter slider to use data layer display attributes
+
+commit 428cb2edccf6f478910abc55156e818afbfa3bc6
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Thu Jan 21 12:12:01 2016 -0600
+
+    reexpress fully implemented and playing nice with overlay
+
+commit eb50fb79c16971c70b537aa80b50395687aae7da
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Thu Jan 21 09:39:42 2016 -0600
+
+    reexpress buttons working (finally)
+
+commit 9c7babe463f6d3f1ea8b92a85fa0c5c6b6e9857d
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Wed Jan 20 11:04:11 2016 -0600
+
+    reexpress savepoint: all techniques for given dataLayer rendering on Leaflet map
+
+commit d34086c2cacc482c118ce5b8a4fd80ec8bd3f643
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Tue Jan 19 15:24:52 2016 -0600
+
+    reexpress savepoint: buttons active
+
+commit e4ba465b451e6c24eb0b34ab7857cd7a36658552
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Tue Jan 19 12:35:45 2016 -0600
+
+    reexpress savepoint
+
+commit 584fb8c94839631d94bd91464de1140ff5529e8c
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Wed Jan 13 15:24:44 2016 -0600
+
+    updated API changed technique object to techniques array and removed array from reexpress interaction
+
+commit c7a1c1e699d25c2e9e480dbeaef24493e4017ca0
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Wed Jan 6 16:45:33 2016 -0600
+
+    implemented proportional symbol technique; not yet in layers panel
+
+commit 5ce87dab627cbe621bd1302958b83f7d122be87a
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Wed Jan 6 14:22:53 2016 -0600
+
+    fixed filter css error and prevented from including non-number attributes
+
+commit 7bf51f7469c13a20dbfda476cd698887d531fcc8
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Wed Jan 6 13:41:26 2016 -0600
+
+    filter done. Booya!
+
+commit 05185a466b17bc387ffe56fbc19a2dca340602b8
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Wed Jan 6 13:05:10 2016 -0600
+
+    activated filter slider; works beautifully
+
+commit f66a07a1cfbe18f7e15b7fc42ed117aa1c5da672
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Tue Jan 5 19:36:03 2016 -0600
+
+    Added filter controls; not yet operational
+
+commit 98ab4acc18943583ae70fa56ed94fa1291ec7a5d
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Tue Jan 5 10:45:53 2016 -0600
+
+    changed basemap tiles to OSM-BW and some other stuff I don't remember
+
+commit 764785e645c2a72491b7b37d13d3d4681fcecf1a
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Mon Nov 16 12:56:05 2015 -0600
+
+    Implemented search
+
+commit 5829f6b00789838213cbec34c2336301c4a957f4
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Mon Nov 16 09:15:48 2015 -0600
+
+    implemented overlay and underlay interactions
+
+commit ecb7a0515cd1e9769db5e9501294354ca048bc40
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Mon Nov 16 07:48:19 2015 -0600
+
+    moved multiple layers from overlay interaction to baseLayers and dataLayers arrays to better fit DRI/MVC organization
+
+commit 73da4c0dfb2de7e198ff49f2e9a7910c01ce0c10
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Thu Nov 12 17:12:41 2015 -0600
+
+    implemented retrieve interaction and interaction logging
+
+commit 72fd75ebbf3c67db8ecf4e8d7120b243b56b9b04
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Thu Nov 12 13:07:42 2015 -0600
+
+    Wrote API for styles.json and map.json config files and tweaked json and js files to comply.
+
+commit c3f228c26a50bc224428ccf7c22f61cdfe65f17c
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Sat Nov 7 20:52:51 2015 -0600
+
+    Leaflet Map view with Choropleth isomorph model implemented; still a bug with initial CSS
+
+commit b3c6fd65af91a467a14ccda1bd9dd0297d1e33c7
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Sat Nov 7 11:47:09 2015 -0600
+
+    implemented LeafletMap view and configurable mapView rendering
+
+commit a24c7fbe3e77221c168f34431ae6f86d46d40799
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Thu Nov 5 15:27:33 2015 -0600
+
+    added UI styles
+
+commit 9099a22ad5138aa3918cda2aa4105c8ed34d275c
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Thu Nov 5 11:51:35 2015 -0600
+
+    dumped Requirejs; set up for Backbonejs
+
+commit a9e7e43209c6f8fe3d347be7a189f7a43f6bc9e2
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Wed Oct 28 16:31:39 2015 -0500
+
+    Added architecture outline to docs
+
+commit 41c0aa398d1c01d15d7f6053e094e15a51bf755c
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Wed Oct 28 10:36:17 2015 -0500
+
+    Added icon to readme
+
+commit 1ad0dd58cb1a05156add54b4a056717fb48cb1b2
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Wed Oct 28 10:32:44 2015 -0500
+
+    Added HTML5 Boilerplate and favicon
+
+commit e2b232e2919f5e56f5ba7ea0369643f82c867273
+Author: northlandiguana <northlandiguana@gmail.com>
+Date:   Wed Oct 28 08:58:59 2015 -0500
+
+    added Readme
