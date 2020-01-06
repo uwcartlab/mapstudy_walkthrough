@@ -2,21 +2,13 @@
 	"pages": [
 		{
 			"page": 1,
-			"fullpage": true,
+			"fullpage": false,
 			"sets": [
 				{
 					"blocks": [
 						{
-							"title": "Page 1",
-							"ask": "This is what a page without a map looks like. It consists of a single set with two blocks. This text is the \"ask\" for a block without an input. You can use this formatting to create an information page or consent form."
-						},
-						{
-							"ask": "This is the second block in the single set on this page. Notice that you can create a new block for each new paragraph of text. In addition to text, this block contains a text input. You could use this kind of formatting to request information or consent from a participant.",
-							"description": "Unlike the first block, this block has no title, but does have a description. This is the description; it is shown in italics. In addition to the two blocks, this set has a single \"next\" button.",
-							"input": {
-								"required": false,
-								"type": "text"
-							}
+							"title": "Welcome to MapStudy",
+							"ask": "This is what a typical MapStudy page looks like. The left side of the window houses a map, either interactive or static as configured by the survey designer. On the right side, the participant is presented with survey questions, which may include descriptive text and other media elements."
 						}
 					],
 					"buttons": [
@@ -27,17 +19,25 @@
 		},
 		{
 			"page": 2,
-			"fullpage": false,
+			"fullpage": true,
 			"sets": [
 				{
 					"blocks": [
 						{
-							"title": "Map Types",
-							"ask": "Mapstudy includes support for data layer techniques: <ul><li>choropleth</li><li>proportional symbol</li><li>dot density</li><li>heat</li><li>isoline(for continuous data, not included here)</li></ul> Use the Reexpress interaction operator to toggle between map types."
+							"title": "Full Questions Page",
+							"ask": "The window may be configured to hide the map section and only show the questions section, but not vice-versa. It also includes a static header containing a customized title and branding, and a footer with the survey designer’s contact information and social media links."
+						},
+						{
+							"ask": "Surveys often start with non-map pages, and use text inputs such as the one below to request information or consent from participants.",
+							"input": {
+								"required": false,
+								"type": "text"
+							}
 						}
 					],
 					"buttons": [
-						"next"
+						"next",
+						"back"
 					]
 				}
 			]
@@ -49,12 +49,88 @@
 				{
 					"blocks": [
 						{
+							"title": "Map Library Types",
+							"ask": "The library module determines which web mapping software or service will be used to render the map. The current options allow a tile-based interactive web map using the Leaflet code library, a static map image rendered directly on the page, or an HTML iframe element for rendering additional multimedia content."
+						},
+						{
+							"ask": "At the left is an example of an interactive web map using the Leaflet library."
+						}
+					],
+					"buttons": [
+						"next",
+						"back"
+					]
+				}
+			]
+		},
+		{
+			"page": 4,
+			"fullpage": false,
+			"sets": [
+				{
+					"blocks": [
+						{
+							"title": "Library Type: Image",
+							"ask": "Here's an example of a static, non-interactive map image."
+						}
+					],
+					"buttons": [
+						"next",
+						"back"
+					]
+				}
+			]
+		},
+		{
+			"page": 5,
+			"fullpage": false,
+			"sets": [
+				{
+					"blocks": [
+						{
+							"title": "Library Type: iframe",
+							"ask": "And here's an example of a map image rendered from an iframe."
+						}
+					],
+					"buttons": [
+						"next",
+						"back"
+					]
+				}
+			]
+		},
+		{
+			"page": 6,
+			"fullpage": false,
+			"sets": [
+				{
+					"blocks": [
+						{
+							"title": "Map Types",
+							"ask": "Mapstudy includes support for four data layer techniques: <ul><li>choropleth</li><li>proportional symbol</li><li>dot density</li><li>heat</li><li>isoline(for continuous data, not included here)</li></ul> Use the Reexpress interaction operator to toggle between map types."
+						}
+					],
+					"buttons": [
+						"next",
+						"back"
+					]
+				}
+			]
+		},
+		{
+			"page": 7,
+			"fullpage": false,
+			"sets": [
+				{
+					"blocks": [
+						{
 							"title": "Base Layers",
 							"ask": "You can include base layers from various sources, including tile services from Stamen and ESRI."
 						}
 					],
 					"buttons": [
-						"next"
+						"next",
+						"back"
 					]
 				}
 			]

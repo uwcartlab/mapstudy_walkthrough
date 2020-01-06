@@ -1,10 +1,160 @@
 {
 	"pages": [
 		{
-			"page": 1
+			"page": 1,
+			"library": "Leaflet",
+			"mapOptions": {
+				"legend": false,
+				"resetButton": false,
+				"center": [
+					0,
+					0
+				],
+				"zoom": 1,
+				"minZoom": 0,
+				"maxZoom": 22,
+				"maxBounds": [
+					[
+						-90,
+						-180
+					],
+					[
+						90,
+						180
+					]
+				]
+			},
+			"baseLayers": [
+				{
+					"name": "Stamen Toner Lite",
+					"source": "Stamen.TonerLite",
+					"layerOptions": {
+						"attribution": "Map by <a href='http://stamen.com'>Stamen</a>, data by <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap contributors</a>"
+					}
+				}
+			],
+			"dataLayers": [
+				{
+					"name": "Choropleth Layer",
+					"source": "data/population.geojson",
+					"layerOptions": {
+						"fillOpacity": 0.8,
+						"color": "black",
+						"weight": 0.5,
+						"opacity": 1
+					},
+					"expressedAttribute": "POP_EST",
+					"displayAttributes": [
+						"POP_EST"
+					],
+					"renderOnLoad": true,
+					"techniques": [
+						{
+							"type": "choropleth",
+							"classification": "natural breaks",
+							"classes": "Greens.5"
+						}
+					]
+				}
+			],
+			"interactions": {}
 		},
 		{
-			"page": 2,
+			"page": 2
+		},
+		{
+			"page": 3,
+			"library": "Leaflet",
+			"mapOptions": {
+				"legend": false,
+				"resetButton": false,
+				"center": [
+					0,
+					0
+				],
+				"zoom": 1,
+				"minZoom": 0,
+				"maxZoom": 22,
+				"maxBounds": [
+					[
+						-90,
+						-180
+					],
+					[
+						90,
+						180
+					]
+				]
+			},
+			"baseLayers": [
+				{
+					"name": "Stamen Toner Lite",
+					"source": "Stamen.TonerLite",
+					"layerOptions": {
+						"attribution": "Map by <a href='http://stamen.com'>Stamen</a>, data by <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap contributors</a>"
+					}
+				}
+			],
+			"dataLayers": [
+				{
+					"name": "Choropleth Layer",
+					"source": "data/population.geojson",
+					"layerOptions": {
+						"fillOpacity": 0.8,
+						"color": "black",
+						"weight": 0.5,
+						"opacity": 1
+					},
+					"expressedAttribute": "POP_EST",
+					"displayAttributes": [
+						"POP_EST"
+					],
+					"renderOnLoad": true,
+					"techniques": [
+						{
+							"type": "choropleth",
+							"classification": "natural breaks",
+							"classes": "Greens.5"
+						}
+					]
+				}
+			],
+			"interactions": {
+				"zoom": {
+					"logging": false,
+					"toggle": false,
+					"interface": {
+						"touch": true,
+						"scrollWheel": true,
+						"doubleClick": true,
+						"box": true,
+						"keyboard": true,
+						"widget": true
+					}
+				},
+				"pan": {
+					"logging": false,
+					"toggle": false,
+					"interface": {
+						"drag": true,
+						"keyboard": true,
+						"widget": false
+					}
+				}
+			}
+		},
+		{
+			"page": 4,
+			"library": "image",
+			"source": "img/dapl.png"
+		},
+		{
+			"page": 5,
+			"library": "iframe",
+			"source": "https://nunderwood6.github.io/FCVS_clone/"
+		},
+		{
+			"page": 6,
 			"library": "Leaflet",
 			"mapOptions": {
 				"legend": false,
@@ -143,7 +293,7 @@
 			}
 		},
 		{
-			"page": 3,
+			"page": 7,
 			"library": "Leaflet",
 			"mapOptions": {
 				"legend": true,
