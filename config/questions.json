@@ -53,7 +53,7 @@
 							"ask": "The library module determines which web mapping software or service will be used to render the map. The current options allow a tile-based interactive web map using the Leaflet code library, a static map image rendered directly on the page, or an HTML iframe element for rendering additional multimedia content."
 						},
 						{
-							"ask": "At the left is an example of an interactive web map using the Leaflet library."
+							"ask": "On the left is an example of an interactive web map using the Leaflet library."
 						}
 					],
 					"buttons": [
@@ -89,7 +89,7 @@
 					"blocks": [
 						{
 							"title": "Library Type: iframe",
-							"ask": "And here's an example of a map image rendered from an iframe."
+							"ask": "And here's an example of a map rendered from an iframe."
 						}
 					],
 					"buttons": [
@@ -106,8 +106,8 @@
 				{
 					"blocks": [
 						{
-							"title": "Map Types",
-							"ask": "Mapstudy includes support for four data layer techniques: <ul><li>choropleth</li><li>proportional symbol</li><li>dot density</li><li>heat</li><li>isoline(for continuous data, not included here)</li></ul> Use the Reexpress interaction operator to toggle between map types."
+							"title": "Library Type: iframe",
+							"ask": "The iframe library type can also be used to render non-map multimedia elements."
 						}
 					],
 					"buttons": [
@@ -125,11 +125,255 @@
 					"blocks": [
 						{
 							"title": "Base Layers",
-							"ask": "You can include base layers from various sources, including tile services from Stamen and ESRI."
+							"ask": "You can include base layers from various sources, including tile services from Stamen and ESRI. The <i>underlay</i> interaction allows users to toggle between base layers."
 						}
 					],
 					"buttons": [
 						"next",
+						"back"
+					]
+				}
+			]
+		},
+		{
+			"page": 8,
+			"fullpage": false,
+			"sets": [
+				{
+					"blocks": [
+						{
+							"title": "Data Layers (Set 1)",
+							"ask": "For Leaflet interactive maps, users can also add data layers to be displayed on the map. These layers are displayed atop the visible base layer, and may be displayed simultaneously or configured to allow participants to turn each one on and off using the overlay interaction operator."
+						},
+						{
+							"title": "Sets",
+							"ask": "Pages may have multiple <i>sets</i> and <i>blocks</i> of questions. This is the second <i>block</i> of the first <i>set</i> for this page. Click 'Next' to progress to the next set for this page."
+						}
+					],
+					"buttons": [
+						"next",
+						"back"
+					]
+				},
+				{
+					"blocks": [
+						{
+							"title": "Data Layers (Set 2)",
+							"ask": "Each data layer requires a source of vector data stored in GeoJSON, TopoJSON, or PostGIS table format, as well as an expressed attribute that specifies the attribute to be visualized. The four layers on this map use the same GeoJSON, with data from the UN on GDP growth per capita, but use different <i>techniques</i>."
+						},
+						{
+							"title": "Technique Types",
+							"ask": "Mapstudy includes support for five data layer techniques: <ul><li>choropleth</li><li>proportional symbol</li><li>dot density</li><li>heat</li><li>isoline(for continuous data, not included here)</li></ul>"
+						}
+					],
+					"buttons": [
+						"next",
+						"back"
+					]
+				}
+			]
+		},
+		{
+			"page": 9,
+			"fullpage": false,
+			"sets": [
+				{
+					"blocks": [
+						{
+							"title": "Data Classification",
+							"ask": "For choropleth and proportional symbol layers, a classification method must also be specified for purposes of binning the data. Available classification methods: <ul><li>quantile</li><li>equal interval</li><li>natural breaks</li><li>unlassed</li><li>user defined</li></ul>"
+						},
+						{
+							"ask": "If provided, participants can change the classification method using the <i>resymbolize</i> interaction operator."
+						}
+					],
+					"buttons": [
+						"next",
+						"back"
+					]
+				}
+			]
+		},
+		{
+			"page": 10,
+			"fullpage": false,
+			"sets": [
+				{
+					"blocks": [
+						{
+							"title": "Interactions",
+							"ask": "Each interactive map page must include a module item enabling various interaction operators, functions allowing the participant to manipulate the map. Each interaction may be configured to include a toggle switch allowing participants to manually enable or disable the interaction."
+						},
+						{
+							"ask": "Available interaction operators include: <ul><li>Zoom</li><li>Pan</li><li>Retrieve</li><li>Overlay</li><li>Underlay</li><li>Search</li><li>Filter</li><li>Reexpress</li><li>Resymbolize</li><li>Reset</li></ul> The map on the left includes all availble interaction operators, which are described in detail in the <a href='https://github.com/uwcartlab/mapstudy'>full documentation</a>."
+						}
+					],
+					"buttons": [
+						"next",
+						"back"
+					]
+				}
+			]
+		},
+		{
+			"page": 11,
+			"fullpage": true,
+			"sets": [
+				{
+					"blocks": [
+						{
+							"title": "Question Blocks",
+							"ask": "Question blocks may consist of the following parts, including photos and videos:"
+						},
+						{
+							"title": "Title",
+							"ask": "The <i>ask</i>, an HTML string usually typically containing a survey question",
+							"description": "The <span style='font-style: normal;'>description</span>, further context displayed in italic.",
+							"image": "img/roth_cartographic_interaction.png",
+							"video":"https://www.youtube.com/embed/kIID5FDi2JQ"
+						}
+					],
+					"buttons": [
+						"next",
+						"back"
+					]
+				}
+			]
+		},
+		{
+			"page": 12,
+			"fullpage": true,
+			"sets": [
+				{
+					"blocks": [
+						{
+							"title": "Input Types",
+							"ask": "Question blocks may include a variety of user input types:"
+						},
+						{
+							"title": "Text",
+							"input": {
+								"required": false,
+								"type": "text"
+							}
+						},
+						{
+							"title": "Paragraph",
+							"input": {
+								"required": false,
+								"type": "paragraph"
+							}
+						},
+						{
+							"title": "Checkboxes",
+							"input": {
+								"required": false,
+								"type": "checkboxes",
+								"items": [
+									{
+										"text": "Item 1"
+									},
+									{
+										"text": "Item 2"
+									},
+									{
+										"text": "Item 3"
+									}
+								]
+							}
+						},
+						{
+							"title": "Radios",
+							"input": {
+								"required": false,
+								"type": "radios",
+								"options": [
+									{
+										"text": "Option 1"
+									},
+									{
+										"text": "Option 2"
+									},
+									{
+										"text": "Option 3"
+									}
+								]
+							}
+						},
+						{
+							"title": "Dropdown",
+							"input": {
+								"required": false,
+								"type": "dropdown",
+								"options": [
+									{
+										"text": "Option 1"
+									},
+									{
+										"text": "Option 2"
+									},
+									{
+										"text": "Option 3"
+									}
+								]
+							}
+						},
+						{
+							"title": "Matrix",
+							"input": {
+								"required": false,
+								"type": "matrix",
+								"options": [
+									{
+										"text": "Option 1"
+									},
+									{
+										"text": "Option 2"
+									},
+									{
+										"text": "Option 3"
+									}
+								]
+							}
+						},
+						{
+							"title": "Rank",
+							"input": {
+								"required": false,
+								"type": "rank",
+								"items": [
+									{
+										"text": "Item 1"
+									},
+									{
+										"text": "Item 2"
+									},
+									{
+										"text": "Item 3"
+									}
+								]
+							}
+						}
+					],
+					"buttons": [
+						"next",
+						"back"
+					]
+				}
+			]
+		},
+		{
+			"page": 13,
+			"fullpage": true,
+			"sets": [
+				{
+					"blocks": [
+						{
+							"title": "Further Resources",
+							"ask": "To inspect and extend these examples, see the underlying code in the 'config' folder from this walkthrough's <a href='https://github.com/uwcartlab/mapstudy_walkthrough'>Github repo</a>. Upload the zipped config to MapStudy's <a href='https://cartlab.geography.wisc.edu/mapstudy/stable/setup/'>setup application</a> or open manually in a text editor to edit for your own purposes. Full documentation is available <a href='https://github.com/uwcartlab/mapstudy'>here</a>. Happy Mapping! "
+						}
+					],
+					"buttons": [
 						"back"
 					]
 				}
